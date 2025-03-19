@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/msasustc/api.msa-sust.com/msa_server
+    - /bin/cp * $DEPLOYPATH
